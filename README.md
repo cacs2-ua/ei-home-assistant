@@ -1,1 +1,0 @@
-# ei-home-assistant
