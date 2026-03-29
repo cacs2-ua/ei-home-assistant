@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "input_boolean",
+  "data": {
+    "items": [
+      {
+        "id": "tomorrow_i_do_not_work",
+        "name": "Tomorrow I do not work",
+        "icon": "mdi:briefcase-off"
+      },
+      {
+        "id": "radio_on",
+        "name": "Radio on",
+        "icon": "mdi:radio"
+      }
+    ]
+  }
+}

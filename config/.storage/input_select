@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "minor_version": 2,
+  "key": "input_select",
+  "data": {
+    "items": [
+      {
+        "id": "station_selector",
+        "name": "Station selector",
+        "icon": "mdi:radio-tower",
+        "options": [
+          "Cadena SER",
+          "Los 40"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "input_button",
+  "data": {
+    "items": [
+      {
+        "id": "medication_taken",
+        "name": "Medication taken",
+        "icon": "mdi:pill"
+      },
+      {
+        "id": "meal_confirmed",
+        "name": "Meal confirmed",
+        "icon": "mdi:silverware-fork-knife"
+      },
+      {
+        "id": "send_help_request",
+        "name": "Send help request",
+        "icon": "mdi:alert"
+      }
+    ]
+  }
+}

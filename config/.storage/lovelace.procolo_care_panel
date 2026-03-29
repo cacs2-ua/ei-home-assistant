@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.procolo_care_panel",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "type": "sections",
+          "sections": [
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "heading": "New section"
+                },
+                {
+                  "type": "tile",
+                  "entity": "input_boolean.radio_on"
+                },
+                {
+                  "type": "tile",
+                  "entity": "input_select.station_selector"
+                },
+                {
+                  "type": "tile",
+                  "entity": "input_boolean.tomorrow_i_do_not_work"
+                },
+                {
+                  "type": "tile",
+                  "entity": "input_button.medication_taken"
+                },
+                {
+                  "type": "tile",
+                  "entity": "input_button.meal_confirmed"
+                },
+                {
+                  "type": "tile",
+                  "entity": "input_button.send_help_request"
+                },
+                {
+                  "display_order": "none",
+                  "type": "todo-list",
+                  "entity": "todo.shopping_list",
+                  "title": "Shopping List"
+                },
+                {
+                  "type": "weather-forecast",
+                  "entity": "weather.forecast_home",
+                  "forecast_type": "daily"
+                },
+                {
+                  "initial_view": "listWeek",
+                  "type": "calendar",
+                  "entities": [
+                    "calendar.procolo_reminders"
+                  ],
+                  "title": "Procolo reminders"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

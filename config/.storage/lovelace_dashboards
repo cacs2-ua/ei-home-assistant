@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_dashboards",
+  "data": {
+    "items": [
+      {
+        "id": "map",
+        "icon": "mdi:map",
+        "title": "Map",
+        "url_path": "map",
+        "show_in_sidebar": true,
+        "mode": "storage",
+        "require_admin": false
+      },
+      {
+        "id": "procolo_care_panel",
+        "show_in_sidebar": true,
+        "icon": "mdi:home-heart",
+        "title": "Procolo Care Panel",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "procolo-care-panel"
+      }
+    ]
+  }
+}
